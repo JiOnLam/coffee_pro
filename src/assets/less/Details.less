@@ -1,0 +1,111 @@
+.details {
+    width: 100vw;
+    /deep/ .van-icon {
+      color: #000;
+    }
+    /deep/ .van-nav-bar__text {
+      color: #000;
+    }
+    /deep/ .van-stepper__minus .van-stepper__minus--disabled {
+        color: #4aa668;
+        border-color: #4aa668;
+    }
+    .content {
+      margin: 0 10px;
+      position: relative;
+      top: -30px;
+      background-color: white;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding-bottom: 30px;
+      .describe {
+        h3 {
+          text-align: left;
+          color: #787b7d;
+          font-size: 16px;
+        }
+        /deep/ .van-cell__value--alone {
+          color: #aba7a6;
+        }
+      }
+      .num {
+        padding: 20px 0;
+        border-top: 1px solid gainsboro;
+        border-bottom: 1px solid gainsboro;
+        text-align: right;
+        /deep/ .van-stepper__minus {
+          color: #588f7e;
+          border-color: #588f7e;
+        }
+        /deep/ .van-stepper__plus {
+          background-color: #588f7e;
+        }
+      }
+      .interest {
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        .wendu {
+          flex: 1;
+          display: flex;
+          padding: 4px 0;
+  
+          .title {
+            width: 40px;
+            height: 100%;
+            text-align: left;
+            line-height: 30px;
+            font-size: 16px;
+            color: #737779;
+            padding-right: 14px;
+          }
+          .con {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            li {
+              padding: 0 10px;
+              margin-bottom: 10px;
+              // width: 54px;
+              line-height: 30px;
+              background-color: #e8e8e8;
+              font-size: 16px;
+              color: gray;
+              margin-right: 10px;
+              border-radius: 20px;
+            }
+            .active {
+              color: white;
+              background-color: #588f7e;
+            }
+          }
+        }
+      }
+      .title_box {
+        padding: 20px;
+        display: flex;
+        .title_box_l {
+          flex: 1;
+          text-align: left;
+          .chname {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #6b6767;
+          }
+          .enname {
+            margin: 0;
+            color: #bcc3ce;
+            font-size: 16px;
+          }
+        }
+        .title_box_r {
+          flex: 1;
+          color: #56907e;
+          text-align: right;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }

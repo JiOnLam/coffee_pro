@@ -1,0 +1,52 @@
+.pay_boxing{
+    text-align: left;
+    .pay_title{
+        font-size: 14px;
+        color: #666;
+    }
+    .pay_middle{
+        padding: 10px 0;
+    }
+    .pay_foot{
+        padding-bottom: 10px;
+        .pay_line{
+            border-bottom: 1px dashed #e8e8e8;
+            position: relative;
+            >div{
+                position: absolute;
+                top: -10px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: white;
+                &.pay_left{
+                    left: -20px;
+                }
+                &.pay_right{
+                    right: -20px;
+                }
+            }
+        }
+        .foot_info{
+            padding-top: 20px;
+            .date{
+                color: #999;
+                font-size: 12px;
+            }
+            .foot_bottom{
+                display: flex;
+                margin-top: 10px;
+                .foot_count{
+                    margin-right: auto;
+                    color: #666;
+                    font-size: 14px;
+                }
+                .foot_total{
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #4aa668;
+                }
+            }
+        }
+    }
+}

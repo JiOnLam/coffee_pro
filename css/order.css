@@ -1,0 +1,47 @@
+.order /deep/ .van-nav-bar .van-icon {
+  color: #000;
+}
+.order /deep/ .van-nav-bar__text {
+  color: #000;
+}
+.order /deep/ .bg-content {
+  background-color: transparent !important;
+  padding: 0;
+}
+.order /deep/ .van-tabs--line .van-tabs__wrap {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.order /deep/ .van-tabs__content {
+  margin-top: 10px;
+}
+.order .pay_title_box {
+  display: flex;
+}
+.order .pay_title_box .pay_t {
+  color: #666;
+  font-size: 14px;
+  margin-right: auto;
+}
+.order .pay_title_box .pay_s {
+  display: flex;
+}
+.order .pay_title_box .pay_s .pay_text {
+  font-size: 14px;
+  color: #999;
+}
+.order .pay_title_box .pay_s .pay_icon {
+  width: 19px;
+  height: 19px;
+  font-size: 19px;
+  color: #999;
+  margin-left: 6px;
+}
+.order .tab_box {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.order .tab_box:last-child {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,13 @@
+.address /deep/ .van-switch--on {
+  background-color: #588f7e;
+}
+.address /deep/ .van-button--danger {
+  background-color: #588f7e;
+  border-color: #588f7e;
+}
+.address /deep/ .van-nav-bar .van-icon {
+  color: #000;
+}
+.address /deep/ .van-nav-bar__text {
+  color: #000;
+}

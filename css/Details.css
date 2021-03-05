@@ -1,0 +1,107 @@
+.details {
+  width: 100vw;
+}
+.details /deep/ .van-icon {
+  color: #000;
+}
+.details /deep/ .van-nav-bar__text {
+  color: #000;
+}
+.details /deep/ .van-stepper__minus .van-stepper__minus--disabled {
+  color: #4aa668;
+  border-color: #4aa668;
+}
+.details .content {
+  margin: 0 10px;
+  position: relative;
+  top: -30px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-bottom: 30px;
+}
+.details .content .describe h3 {
+  text-align: left;
+  color: #787b7d;
+  font-size: 16px;
+}
+.details .content .describe /deep/ .van-cell__value--alone {
+  color: #aba7a6;
+}
+.details .content .num {
+  padding: 20px 0;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  text-align: right;
+}
+.details .content .num /deep/ .van-stepper__minus {
+  color: #588f7e;
+  border-color: #588f7e;
+}
+.details .content .num /deep/ .van-stepper__plus {
+  background-color: #588f7e;
+}
+.details .content .interest {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.details .content .interest .wendu {
+  flex: 1;
+  display: flex;
+  padding: 4px 0;
+}
+.details .content .interest .wendu .title {
+  width: 40px;
+  height: 100%;
+  text-align: left;
+  line-height: 30px;
+  font-size: 16px;
+  color: #737779;
+  padding-right: 14px;
+}
+.details .content .interest .wendu .con {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.details .content .interest .wendu .con li {
+  padding: 0 10px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  background-color: #e8e8e8;
+  font-size: 16px;
+  color: gray;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.details .content .interest .wendu .con .active {
+  color: white;
+  background-color: #588f7e;
+}
+.details .content .title_box {
+  padding: 20px;
+  display: flex;
+}
+.details .content .title_box .title_box_l {
+  flex: 1;
+  text-align: left;
+}
+.details .content .title_box .title_box_l .chname {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #6b6767;
+}
+.details .content .title_box .title_box_l .enname {
+  margin: 0;
+  color: #bcc3ce;
+  font-size: 16px;
+}
+.details .content .title_box .title_box_r {
+  flex: 1;
+  color: #56907e;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
